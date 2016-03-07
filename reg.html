@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <div style="position: absolute; width: max-width; height: max-height; z-index: 0; left: 0px; top: 0px" id="layer1">
+                <video autoplay="autoplay" name="media" wmode"transparent" style="max-width: 100%; max-height: 100%">
+                    <source src="https://a0.muscache.com/airbnb/static/Belong_p1_v2.mp4" type="video/mp4" >
+                    <!-- <source src="https://a0.muscache.com/airbnb/static/Croatia-P1-1.mp4" type="video/mp4" > -->
+                </video>
+        </div>
+
+        <div style="position: absolute; width: max-width; height: max-height; z-index: 2; left: 150px; top: 150px" id="layer2">
+            <form tag="Register">
+            <div>
+            <font color=#FF6600 size="6" font face="Comic Sans MS">
+            報名你的旅程<p></p>
+            </font>
+            </div>
+            <font color=#FFFF00 font face="Comic Sans MS" size="4">
+            <strong>姓名 (必填): </strong><input required type="username" placeholder="姓名"  name="username" maxlength="10" /><br/>
+                <label><strong>學院 (必填): </strong></label>
+                <select required >
+                    <option selected="selected" value="communication">傳播學院</option>
+                    <option value="commerce">商學院</option>
+                    <option value="science">理學院</option>
+                    <option value="liberalArt">文學院</option>
+                    <option value="socialScience">社會科學學院</option>
+                    <option value="law">法學院</option>
+                    <option value="lanquage">外國語學院</option>
+                    <option value="internationalAffair">國際事務學院</option>
+                    <option value="education">教育學院</option>
+                </select><br/>
+        
+            <strong>手機 (必填): </strong><input name="phone" type="text" id="phone" tabindex="3" placeholder="手機號碼" maxlength="10" required pattern="[0-9]{10}" /><br/>
+        
+            <strong>Email (必填): </strong><input required type="email" placeholder="email" name="email" /><br/>
+        
+            <strong>生日 (非必填): </strong><input type="date" name="dob" /><p></p>
+            <center>
+                <input type="submit" value="送出" />
+            </center>
+            </font>
+            </form>
+        </div>
+
+    </body>
+</html>
