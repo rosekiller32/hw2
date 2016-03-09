@@ -20,7 +20,7 @@
             </font>
             </div>
             <font color=#FFFF00 font face="Comic Sans MS" size="4">
-            <strong>姓名 (必填): </strong><input required type="username" placeholder="姓名"  name="username" maxlength="10" /><br/>
+            <strong>姓名 (必填): </strong><input required type="username" placeholder="姓名" name="username" maxlength="10" /><br/>
                 <label><strong>學院 (必填): </strong></label>
                 <select required >
                     <option selected="selected" value="communication">傳播學院</option>
@@ -34,7 +34,7 @@
                     <option value="education">教育學院</option>
                 </select><br/>
         
-            <strong>手機 (必填): </strong><input name="phone" type="text" id="phone" tabindex="3" placeholder="手機號碼" maxlength="10" required pattern="[0-9]{10}" /><br/>
+            <strong>手機 (必填): </strong><input name="phone" type="text" id="phone" placeholder="手機號碼" minlength="1" maxlength="10" required pattern="[0-9]{1,10}" /><br/>
         
             <strong>Email (必填): </strong><input required type="email" placeholder="email" name="email" /><br/>
         
